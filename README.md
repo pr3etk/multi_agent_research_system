@@ -1,4 +1,4 @@
-# Multi-Agent Research System A **4-stage research system** built using **LangChain**, **LangGraph**, **Mistral AI**, **Tavily Search**, and **BeautifulSoup** that autonomously searches the web, extracts relevant information, generates a structured research report, and performs AI-based critique for quality assurance. The system exposes a **FastAPI** backend, enabling seamless integration with modern frontend applications. --- ## ✨ Features - 🔍 AI-powered web search using Tavily Search - 🌐 Intelligent webpage scraping with BeautifulSoup - 📝 Automated research report generation - 🤖 AI-based report review and quality feedback - ⚡ FastAPI backend with REST APIs - 🎨 React (Vite + TypeScript) frontend integration - 🔒 Environment variable management using .env - 🚀 Modular multi-agent architecture --- # 🏗️ System Architecture
+# Multi-Agent Research System A **4-stage research system** built using **LangChain**, **Mistral AI**, **Tavily Search**, and **BeautifulSoup** that autonomously searches the web, extracts relevant information, generates a structured research report, and performs AI-based critique for quality assurance. The system exposes a **FastAPI** backend, enabling seamless integration with modern frontend applications. --- ## ✨ Features - 🔍 AI-powered web search using Tavily Search - 🌐 Intelligent webpage scraping with BeautifulSoup - 📝 Automated research report generation - 🤖 AI-based report review and quality feedback - ⚡ FastAPI backend with REST APIs - 🎨 React (Vite + TypeScript) frontend integration - 🔒 
 text
 User
   |
@@ -71,7 +71,7 @@ bash
 pip install -r requirements.txt
 --- ## 4. Configure environment variables Create a .env file in the project root.
 env
-OPENAI_API_KEY=
+
 MISTRAL_API_KEY=
 TAVILY_API_KEY=
 --- # ▶️ Running the Backend
