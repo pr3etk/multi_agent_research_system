@@ -1,0 +1,35 @@
+User
+  |
+  v
+React Frontend (Vite + TypeScript)
+  |
+  |  POST /research with { topic }
+  v
+FastAPI Backend
+  |
+  |  validates input with Pydantic
+  |  allows browser access with CORS
+  |  runs long work in a thread
+  v
+Research Pipeline
+  |
+  +--> Search Agent ----> Tavily web search
+  |
+  +--> Reader Agent -----> requests + BeautifulSoup scrape web page
+  |
+  +--> Writer Chain ------> generates structured report
+  |
+  +--> Critic Chain ------> reviews report and gives score
+  |
+  v
+Structured JSON Response
+  |
+  v
+Frontend Dashboard
+  |
+  +--> Introduction
+  +--> Key Findings
+  +--> Conclusion
+  +--> Sources
+  +--> Feedback / Score
+  +--> Raw search and scrape output
